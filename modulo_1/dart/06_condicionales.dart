@@ -32,4 +32,8 @@ void main(){
     print('b == 2 is true');
   }
 
+  int age = 18;
+  String ageDescription = age >= 18 ? 'Adulto' : 'Menor de edad';
+  print(ageDescription);
+
 }
