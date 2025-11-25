@@ -1,0 +1,20 @@
+void main(){
+    print("maps");
+    final Map <String, dynaic>pokemon ={
+      'name':'Ditto',
+      'hp':100,
+      'isAlive':true,
+      'abilities':<String>['importor'],
+      'sprites':{
+        1:'src/ditto1.jpg',
+        2:'src/ditto2.jpg'
+      }
+    } 
+
+    print(pokemon);
+    print(pokemon['name']);
+    print(pokemon['sprites']);
+    print(pokemon['isAlive']);
+    print(pokemon['sprites'][1]);
+
+}
