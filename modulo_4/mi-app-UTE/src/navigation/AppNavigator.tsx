@@ -21,7 +21,7 @@ export function AppNavigator() {
             <Stack.Screen name="Home" component={HomeScreen} options={{ title: "Inicio" }} />
             <Stack.Screen name="Details" component={DetailsScreen} options={{ title: "Detalles" }} />
             <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: "Settings" }} />
-            <Stack.Screen name="DemoScreen" component={DemoScreen} />
+            <Stack.Screen name="Demo" component={DemoScreen} />
             <Stack.Screen name="LoginForm" component={LoginFormScreen} options={{ title: "Login Form" }} />
         </Stack.Navigator>
     );
