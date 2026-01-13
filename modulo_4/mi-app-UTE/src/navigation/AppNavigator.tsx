@@ -33,7 +33,7 @@ export function AppNavigator() {
             />
             <Stack.Screen
                 name="Settings"
-                component={SettingsScreen}
+                component={DisplayName}
                 options={{ title: "Settings" }}
             />
         </Stack.Navigator>
