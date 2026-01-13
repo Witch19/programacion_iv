@@ -5,6 +5,8 @@ import { DetailsScreen } from "@/screens/DetailsScreen";
 import { SettingsScreen } from "@/screens/SettingsScreen";
 import { LoginFormScreen } from "@/screens/LoginFormScreen";
 import { DemoScreen } from "@/screens/DemoScreen";
+import { ProductsListScreen } from "@/screens/ProductsListScreen";
+import { ProfileScreen } from "@/screens/ProfileScreen";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -23,8 +25,21 @@ export function AppNavigator() {
             <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: "Settings" }} />
             <Stack.Screen name="Demo" component={DemoScreen} />
             <Stack.Screen name="LoginForm" component={LoginFormScreen} options={{ title: "Login Form" }} />
+            <Stack.Screen name="Products" component={ProductsListScreen} options={{ title: "Productos" }} />
+            <Stack.Screen
+                name="Profile"
+                component={ProfileScreen}
+                options={{ title: "Perfil" }}
+            />
+            <Stack.Screen
+                name="Settings"
+                component={SettingsScreen}
+                options={{ title: "Settings" }}
+            />
         </Stack.Navigator>
     );
 }
 
-// ...
+
+
+
